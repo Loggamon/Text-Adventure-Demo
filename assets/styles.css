@@ -1,0 +1,14 @@
+.fluid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.inventory {
+    grid-column: 1 / 2;
+    grid-row: auto;
+}
+
+.text {
+    grid-column: 3 / 4;
+    grid-row: auto;
+}
